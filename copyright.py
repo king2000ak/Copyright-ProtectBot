@@ -17,7 +17,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 API_ID = os.getenv("API_ID")
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("TOKEN")
-DEVS = [5690711835, 6312693124]
+DEVS = [7136886425]
 
 ALL_GROUPS = []
 TOTAL_USERS = []
@@ -49,7 +49,7 @@ START_MESSAGE = """
  **Process?:** Simply add me in your group and promote as admin with delete messages right!
 """
 
-BUTTON = [[InlineKeyboardButton("+ Add me in group +", url="http://t.me/AntiCopy_Robot?startgroup=s&admin=delete_messages")]]
+BUTTON = [[InlineKeyboardButton("+ Add me in group +", url="http://t.me/@AnsiRobot?startgroup=s&admin=delete_messages")]]
 
 bot = Client('bot', api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
